@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto&display=swap');
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+h1,h2,h3,h4{
+    color: #F26457;
+}
+
+header div{
+    color: #F14764;
+    font-size: 36px;
+    font-weight: 700;
+    margin: auto 0;
+}
+
+header nav{
+    font-weight: 400;
+    font-size: 24px;
+    margin: auto 8% auto auto;
+}
+
+header nav a{
+    margin: 0 20px;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: #F2526E;
+}
+
+img.Logo{
+    width: 103px;
+    margin-left: 10px;
+}
+
+img.Banner{
+    width: 100%;
+}
+
+img.Article{
+    width: 315px;
+}
+
+img.PersonPhoto{
+    width: 118px;
+}
+
+main{
+    display: flex;
+}
+
+#MainArticle{
+    padding: 1% 6.5%;
+    font-size: 25px;
+    text-align: center;
+}
+
+#MainArticle p{
+    font-family: 'Inter', sans-serif;
+    padding: 0% 4.5%;
+}
+
+#Reviews{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 6%;
+}
+
+#Reviews i{
+    font-size: 16px;
+    
+}
+
+#Card{
+    border: 1px solid lightgray;
+    padding: 3%;
+    border-radius: 20px;
+}
+
+#Reviewer {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#Reviewer div{
+    margin: auto 20px auto 40px;
+    font-size: 20px;
+}
+
+aside{
+    padding: 2%;
+    background-color: #F5F5F5;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #D9D9D9;
+    padding-left: 30px;
+    font-size: 16px;
+    border: 1px solid #D9D9D9;
+}
