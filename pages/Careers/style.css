@@ -42,6 +42,10 @@ html{
     color: #F2526E;
 }
 
+.banner{
+    width: 100%;
+}
+
 h2, h3{
     color: #F2526E;
     font-family: Roboto Condensed;
