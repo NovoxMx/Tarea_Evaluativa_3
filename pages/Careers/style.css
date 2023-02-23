@@ -33,7 +33,7 @@ html{
     width: 30%;
 }
 
-.header_bar a:link{
+.header_bar a:link, a:visit{
     color: #000;
 }
 
