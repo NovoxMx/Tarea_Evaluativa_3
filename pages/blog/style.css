@@ -6,6 +6,10 @@ html{
     color: #212529;
 }
 
+header{
+    position: sticky;
+}
+
 .header_bar{
     background: #FFFFFF;
     display: flex;
@@ -14,7 +18,6 @@ html{
     top: 0px;
     font-family: 'Roboto Condensed';
     border-bottom: 2px solid #000;
-    position: sticky;
 }
 
 .header_bar img{
