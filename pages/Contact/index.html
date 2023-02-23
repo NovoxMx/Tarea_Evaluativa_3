@@ -1,1 +1,73 @@
-
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Contact</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+    <body>
+        <header>
+            <div class="header_bar">
+                <img src="../imagenes/logo.png" alt="logo"> 
+                <h3>My Company</h3>
+                <nav>
+                    <ul>
+                        <b><a href="Home.html">Home</a></b>
+                        <b><a href="Careers.html">Careers</a></b>
+                        <b><a href="index.html">Blog</a></b>
+                        <b><a href="Contact.html">Contact Us</a></b>
+                    </ul>
+                </nav>
+            </div>
+            <div id="banner" class="banner">
+              <img src="../imagenes/banner1.jpeg" alt="Banner image">
+            </div>
+        </header>       
+        <main>
+            <div class="contact">
+                <h2 style="color:black;">Contact Us</h2>
+                <img src="../imagenes/contactus-pic.jpeg" alt="Contact">
+            </div>
+            <div class="contact-form">
+                <h3 style="color: black; font-size:24px; font-weight:lighter;">Tell us everything...</h3>
+                <form class="form-inputs">
+                    <div class="form-box">
+                        <label for="fname">First name</label><br>
+                        <input id="fname" type="text" placeholder="Type your name..."><br> 
+                    </div>
+                    <div class="form-box">
+                        <label for="lname">Last name</label><br>
+                        <input id="lname" type="text" placeholder="Type your last name..."><br> 
+                    </div>
+                    <div class="form-box">
+                        <label for="email">Email</label><br>
+                        <input id="email" type="text" placeholder="youremail@domain.com"><br> 
+                    </div>
+                    <div class="form-box">
+                        <label for="cellphone">Cellphone</label><br>
+                        <input id="cellphone" type="text" placeholder="+52(662)396 23 45"><br> 
+                    </div>
+                    <div class="form-big-box">
+                        <label for="option">You want to share...</label><br>
+                        <select id="option">
+                            <option value="complaint">A complaint</option>
+                            <option value="suggestion">A suggestion</option>
+                            <option value="question">A question</option>
+                        </select>
+                        <br>
+                    </div>
+                    <div class="form-big-box">
+                        <label for="comment">Share your thoughts</label><br>
+                        <textarea id="comment" placeholder="Write here..."></textarea><br>
+                    </div>
+                    <div style="text-align:center;" class="form-big-box">
+                    <input type="submit" value="SEND TO AN ADVISOR" class="send-button">
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>@Copyright My Company 2023</p>
+        </footer>
+    </body>
+</html>
