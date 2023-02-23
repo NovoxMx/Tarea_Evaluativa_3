@@ -32,7 +32,7 @@ header nav{
     width: 30%;
 }
 
-ul{
+header ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
