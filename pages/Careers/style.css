@@ -1,1 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&family=Roboto:ital@0;1&display=swap');
+
+html{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+}
+
+.header_bar{
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    font-family: 'Roboto Condensed';
+}
+
+.header_bar img{
+    width: 103px;
+    height: 103px;
+}
+
+.header_bar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_bar nav{
+    font-size: 24px;
+    margin-left: 640px;
+    width: 30%;
+}
+
+.header_bar a:link{
+    color: #000;
+}
+
+.header_bar a:hover{
+    color: #F2526E;
+}
+
+h2, h3{
+    color: #F2526E;
+    font-family: Roboto Condensed;
+}
+
+h2, h3{
+    font-size: 36px;
+    color: #F2526E;
+    font-family: Roboto Condensed;
+}
+
+#ArticleSec{
+    font-size: 24px;
+}
+
+
+body{
+    font-size: 18px;
+    /*text-align: justify;*/
+}
+
+a:link{
+    color: #000;
+}
+
+
+.banner{
+    width:100%;
+    height: 267px;
+}
+
+
+button{
+    border-radius: 12px;
+    font-size: 16px;
+    border-width: 1px;
+    width: 90%;
+    height: 50%;
+}
+
+#tableCareers{
+    border-collapse: collapse;
+    width: 980px;
+    height: 30px;
+    left: 106px;
+    top: 495px;
+
+    
+    margin: 15px 1px 0px 15px;
+}
+
+#tableTitle{
+    margin: 20px;
+    color:black;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;  
+}
+
+.vacanciesTable{
+    text-align:center;
+}
+
+th {
+    background-color:#F2526E;
+    font-size: 24px;
+}
+
+td{
+    font-size: 20px;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+    
+tr:nth-child(odd){
+    background-color: #F5F5F5;
+    border-bottom: 2px solid#F2526E
+}
+
+.qualifTable{
+    font-size: 16px;
+}
+
+
+.asidePic{
+    width: auto;
+
+}
+
+footer{
+
+    display:flex;
+    font-size: 16px;
+    background: #D9D9D9;
+    width: 100%;
+    height: 50px;
+} 
+
+main article{
+    width: auto;
+    float: left;
+}
+
+
+#asideArticle{
+    font-size: 20px;
+    float: right;
+    border: 1px solid #000000;
+    width: 300px;
+    margin:-8px 1px 0px 5px;
+}
+
+section{
+    /* arriba | derecha | abajo | izquierda */
+    padding: 0px 20px 5px 10px;
+}
 
