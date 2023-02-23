@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&family=Roboto:ital@0;1&display=swap');
 
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 html{
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
@@ -13,7 +17,7 @@ html{
     justify-content: space-between;
     top: 0px;
     font-family: 'Roboto Condensed';
-
+    border-bottom: 2px solid #000;
     position: sticky;
 }
 
