@@ -13,7 +13,7 @@ html{
     justify-content: space-between;
     top: 0px;
     font-family: 'Roboto Condensed';
-    border-bottom: 1px solid #000;
+    border-bottom: 3px solid #000;
 }
 
 .header_bar img{
@@ -70,6 +70,10 @@ a:link{
     background: #FFFFFF;
     padding: 7%;
     padding-top: 0%;
+}
+
+.text1{
+    border-bottom: 3px solid #808080;    
 }
 
 img{
