@@ -5,10 +5,13 @@
 }
 
 header{
+    background: #FFFFFF;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0px;
+    font-family: 'Roboto Condensed';
     position: sticky;
-    top: 0;
-    background-color: white;
 }
 
 h1,h2,h3,h4{
