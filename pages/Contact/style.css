@@ -20,6 +20,7 @@ html{
     justify-content: space-between;
     top: 0px;
     font-family: 'Roboto Condensed';
+    position: sticky;
 }
 
 .header_bar img{
