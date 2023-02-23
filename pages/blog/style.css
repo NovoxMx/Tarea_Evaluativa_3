@@ -4,7 +4,6 @@ html{
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     color: #212529;
-    background: #FFFFFF;
 }
 
 .header_bar{
@@ -67,7 +66,7 @@ a:link{
 }
 
 .body_main{
-    
+    background: #FFFFFF;
     padding: 7%;
     padding-top: 0%;
 }
