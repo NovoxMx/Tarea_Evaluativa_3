@@ -13,6 +13,7 @@ html{
     justify-content: space-between;
     top: 0px;
     font-family: 'Roboto Condensed';
+    border-bottom: 1px solid #375e97;
 }
 
 .header_bar img{
