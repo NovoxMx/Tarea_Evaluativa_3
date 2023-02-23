@@ -6,10 +6,6 @@ html{
     color: #212529;
 }
 
-header{
-    position: sticky;
-}
-
 .header_bar{
     background: #FFFFFF;
     display: flex;
@@ -18,17 +14,20 @@ header{
     top: 0px;
     font-family: 'Roboto Condensed';
     border-bottom: 2px solid #000;
+        position: sticky;
 }
 
 .header_bar img{
     width: 103px;
     height: 103px;
+    position: sticky;
 }
 
 .header_bar ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+        position: sticky;
 }
 
 .header_bar nav{
@@ -36,6 +35,7 @@ header{
     padding-right: 3em;
     margin-left: auto;
     width: 30%;
+        position: sticky;
 }
 
 .header_bar a:link, a:visited{
