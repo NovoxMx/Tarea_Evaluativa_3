@@ -24,12 +24,14 @@ html{
 .header_bar img{
     width: 103px;
     height: 103px;
+    position: sticky;
 }
 
 .header_bar ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
 }
 
 .header_bar nav{
@@ -37,6 +39,7 @@ html{
     padding-right: 3em;
     margin-left: auto;
     width: 30%;
+    position: sticky;
 }
 
 .header_bar a:link, a:visited{
